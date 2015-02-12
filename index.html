@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Super Table</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+<body>
+
+	<div class="container">
+	<h1>Таблица посещаемости на работе</h1>
+		<ul class="nav nav-tabs" role="tablist" id="myTab">
+		  <li role="presentation" class="active"><a href="#first" aria-controls="first" role="tab" data-toggle="tab">Февраль, 2015</a></li>
+		  <li role="presentation"><a href="#second" aria-controls="second" role="tab" data-toggle="tab">Март, 2015</a></li>
+		</ul>
+
+		<div class="tab-content">
+		  <div role="tabpanel" class="tab-pane active" id="first">
+			<table id="feb2015" class="table table-striped">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Дата</th>
+						<th>Начало</th>
+						<th>Конец</th>
+						<th>Часов</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		  </div>
+		  <div role="tabpanel" class="tab-pane" id="second">
+			<table id="mart2015" class="table table-striped">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Дата</th>
+						<th>Начало</th>
+						<th>Конец</th>
+						<th>Часов</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		  </div>
+		</div>	
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
